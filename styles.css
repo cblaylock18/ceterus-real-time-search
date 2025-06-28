@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(255, 233, 214);
+    font-family: monospace;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+
+.search-filter-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#search,
+#filter {
+    padding: 0.2rem;
+    font-size: 1.1rem;
+}
+
+#data-table {
+    width: 100%;
+    max-width: 1400px;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    text-align: left;
+}
+
+#data-table th {
+    font-size: 1rem;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 0.3rem;
+}
+
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.error-row,
+.no-results-row {
+    background-color: rgb(255, 200, 200);
+    color: red;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.loading-row {
+    background-color: rgb(255, 255, 200);
+    color: orange;
+    font-size: 1.4rem;
+    text-align: center;
+}
